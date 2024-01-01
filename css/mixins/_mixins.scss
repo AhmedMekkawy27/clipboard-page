@@ -1,0 +1,21 @@
+@mixin para($min,$max){
+    color: #a2a7aa;
+    font-size: 20px;
+    margin-bottom: 50px;
+    min-width: $min;
+    max-width: $max;
+    margin-left: auto;
+    margin-right: auto;
+}
+@mixin h($font){
+    margin-top: 40px;
+    font-size: $font;
+    color: #4d545a;
+    font-weight: 600;
+}
+@mixin d-flex($d:block,$w:nowrap,$j:center,$a:static){
+    display: $d;
+    flex-wrap: $w;
+    justify-content: $j;
+    align-items: $a;
+}
